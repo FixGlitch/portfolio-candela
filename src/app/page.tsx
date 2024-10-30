@@ -14,7 +14,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/candela-modeling-banner.jpg",
+        url: "https://drive.google.com/uc?export=view&id=1Fy7xWXttVd5fGgMqYUKDFkOPHy2kIzYD",
         alt: "Candela posing in a fashion photoshoot",
       },
     ],
@@ -27,14 +27,9 @@ const Home = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8">
         <div className="flex flex-col justify-between">
           <div className="space-y-4 mb-8">
-            <h2 className="text-lg font-semibold">TITULO</h2>
+            <h2 className="text-lg text-gray-800 font-semibold">Versatile Runway Presence</h2>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Candela&apos;s runway presence is a captivating fusion of elegance and intensity. She embodies each designer&apos;s vision with a unique stride that highlights her adaptability and command of the runway. From high-fashion couture to sleek ready-to-wear, her look elevates every show.
             </p>
           </div>
           <div className="relative h-[400px] mt-auto">
@@ -50,7 +45,7 @@ const Home = () => {
         <div className="flex relative h-[calc(100vh-200px)]">
           <Image
             src="https://drive.google.com/uc?export=view&id=11p1TSgqira8sFxGSTUOmPd4RsPkjfE5S"
-            alt="Candela Astone main portfolio image"
+            alt="Candela Astone walking the runway"
             layout="fill"
             objectFit="cover"
             priority
@@ -61,11 +56,11 @@ const Home = () => {
             <div className="relative h-[300px]">
               <Image
                 src="https://drive.google.com/uc?export=view&id=1a-2sCTxj_-84TsXuqbh7Z9_seCQn9-H1"
-                alt="Candela Astone main portfolio image"
+                alt="Candela Astone posing in a fashion shoot"
                 layout="fill"
                 objectFit="cover"
               />
-              <div className="lg:hiden space-x-4">
+              <div className="lg:hidden space-x-4">
                 <button className="p-2 rounded-full border border-gray-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -100,17 +95,13 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <h2 className="lg:flex hidden text-lg font-semibold">TITULO</h2>
+            <h2 className="lg:flex hidden text-gray-800 text-lg font-semibold">Editorial Expertise</h2>
           </div>
           <div className="space-x-4 lg:mt-8">
             <div className="flex flex-col mt-8">
-              <h2 className="text-lg font-semibold">TITULO</h2>
+              <h2 className="text-lg text-gray-800 font-semibold">Dynamic Style and Vision</h2>
               <p className="text-sm text-gray-600 mb-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Candela seamlessly blends classic beauty with a contemporary edge. Her dynamic range allows her to embody diverse styles, making her a versatile model suited for both high-fashion editorials and trend-forward campaigns.
               </p>
             </div>
           </div>
