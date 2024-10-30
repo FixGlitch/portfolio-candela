@@ -39,26 +39,28 @@ const Home = () => {
           </div>
           <div className="relative h-[400px] mt-auto">
             <Image
-              src="/cande.jpg"
+              src="https://drive.google.com/uc?export=view&id=1NNmeU2YMDkCKW7gnMOPwhmdllxeYHG1-"
               alt="Candela Astone main portfolio image"
               layout="fill"
               objectFit="cover"
+              objectPosition="top"
             />
           </div>
         </div>
         <div className="flex relative h-[calc(100vh-200px)]">
           <Image
-            src="/cande.jpg"
+            src="https://drive.google.com/uc?export=view&id=11p1TSgqira8sFxGSTUOmPd4RsPkjfE5S"
             alt="Candela Astone main portfolio image"
             layout="fill"
             objectFit="cover"
+            priority
           />
         </div>
         <div className="flex flex-col-reverse lg:flex-col justify-between">
           <div className="space-y-4">
             <div className="relative h-[300px]">
               <Image
-                src="/cande.jpg"
+                src="https://drive.google.com/uc?export=view&id=1a-2sCTxj_-84TsXuqbh7Z9_seCQn9-H1"
                 alt="Candela Astone main portfolio image"
                 layout="fill"
                 objectFit="cover"
